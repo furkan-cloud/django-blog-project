@@ -121,5 +121,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
-
+# STATICFILES_DIRS = [BASE_DIR / "static"]
+# direk static klasöründe koymak için ana rootta
 MEDIA_ROOT = BASE_DIR / "media_root"
